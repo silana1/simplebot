@@ -1,15 +1,15 @@
 //============= Datos del Bot =============//
 
-global.owner = ['5219996125657']
-global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '𝕊𝕚𝕞𝕡𝕝𝕖𝔹𝕠𝕥'
-global.wm = '𝕊𝕚𝕞𝕡𝕝𝕖𝔹𝕠𝕥'
+global.owner = ['212605784394']
+global.packname = 'ʙᴏʙɪᴢ ʙᴏᴛ By Noureddine ouafy'
+global.author = 'NOUREDDINE OUAFY'
+global.wm = 'ʙᴏʙɪᴢ ʙᴏᴛ By Noureddine ouafy'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 //============= urlButtons =============//
 
-global.textUrlbot = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.linkUrlbot = "https://www.instagram.com/ilmanhdyt_"
+global.textUrlbot = 'ʙᴏʙɪᴢ ʙᴏᴛ By Noureddine ouafy'
+global.linkUrlbot = "https://www.instagram.com/noureddine_ouafy"
 
 //=========================================================================//
 
