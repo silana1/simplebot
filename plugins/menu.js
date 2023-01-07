@@ -1,6 +1,6 @@
 let fs = require('fs')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './bobiz.mp4'
+let pp = './Menu2.jpg'
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let menu = `
 ╭══〘 ʙᴏʙɪᴢ ʙᴏᴛ 〙═╮
