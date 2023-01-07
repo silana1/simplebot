@@ -1,82 +1,64 @@
 let fs = require('fs')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './Menu2.jpg'
+let pp = './bobiz.mp4'
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let menu = `
-╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+╭══〘 ʙᴏʙɪᴢ ʙᴏᴛ 〙═╮
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${taguser} :D*
+║➤ *✨salam, ${taguser} :D*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-╰══╡✯✯✯✯✯✯✯✯╞══╯
+╰══╡☺☺☺☺☺╞══╯
 ┏━━━━━━━━━━━━━┓
-┃ *< COMANDOS >*
+┃ *< Menu >*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟💫 _a_
-┣ ඬ⃟💫 _${usedPrefix}cat_
-┣ ඬ⃟💫 _${usedPrefix}dog_
-┣ ඬ⃟💫 _${usedPrefix}meme_
-┣ ඬ⃟💫 _${usedPrefix}logos_
-┣ ඬ⃟💫 _${usedPrefix}runtime_
-┣ ඬ⃟💫 _${usedPrefix}infohost_
-┣ ඬ⃟💫 _${usedPrefix}on welcome_
-┣ ඬ⃟💫 _${usedPrefix}off welcome_
-┣ ඬ⃟💫 _${usedPrefix}ig *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}mediafire *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}tiktok *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}sticker *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}attp *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}attp2 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}attp3 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}ttp *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}ttp2 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}ttp3 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}ttp4 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}ttp5 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}wikipedia *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}google *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}imagen *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}play *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}play2 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}play3 *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}invocar *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}ytsearch *[texto]*_
-┣ ඬ⃟💫 _${usedPrefix}getaud *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}getvid *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}ytmp3 *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}ytmp4 *[url]*_
-┣ ඬ⃟💫 _${usedPrefix}tts *[lenguaje] [texto]*_
-┣ ඬ⃟💫 _${usedPrefix}toimg *[sticker]*_
-┣ ඬ⃟💫 _${usedPrefix}sticker *[imagen]*_
-┣ ඬ⃟💫 _${usedPrefix}tourl *[imagen]*_
-┣ ඬ⃟💫 _${usedPrefix}tourl *[video]*_
-┣ ඬ⃟💫 _${usedPrefix}tourl *[audio]*_
-┣ ඬ⃟💫 _${usedPrefix}fat *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}bass *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}blown *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}deep *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}fast *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}robot *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}slow *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}tupai *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}vibra *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}nightcore *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}earrape *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}reverse *[nota de voz]*_
-┣ ඬ⃟💫 _${usedPrefix}smooth *[nota de voz]*_
+┣  _a_
+┣  _${usedPrefix}logos_
+┣  _${usedPrefix}on welcome_
+┣  _${usedPrefix}off welcome_
+┣  _${usedPrefix}ig *[url]*_
+┣  _${usedPrefix}mediafire *[url]*_
+┣  _${usedPrefix}tiktok *[url]*_
+┣  _${usedPrefix}sticker *[url]*_
+┣  _${usedPrefix}attp *[text]*_
+┣  _${usedPrefix}attp2 *[text]*_
+┣  _${usedPrefix}attp3 *[text]*_
+┣  _${usedPrefix}ttp *[text]*_
+┣  _${usedPrefix}ttp2 *[text]*_
+┣  _${usedPrefix}ttp3 *[text]*_
+┣  _${usedPrefix}ttp4 *[text]*_
+┣  _${usedPrefix}ttp5 *[text]*_
+┣  _${usedPrefix}wikipedia *[text]*_
+┣  _${usedPrefix}google *[text]*_
+┣  _${usedPrefix}imagen *[text]*_
+┣  _${usedPrefix}play *[texto]*_
+┣  _${usedPrefix}play2 *[text]*_
+┣  _${usedPrefix}play3 *[text]*_
+┣  _${usedPrefix}invocar *[text]*_
+┣  _${usedPrefix}ytsearch *[text]*_
+┣  _${usedPrefix}getaud *[url]*_
+┣  _${usedPrefix}getvid *[url]*_
+┣  _${usedPrefix}ytmp3 *[url]*_
+┣  _${usedPrefix}ytmp4 *[url]*_
+┣  _${usedPrefix}tts *[lenguaje] [texto]*_
+┣  _${usedPrefix}toimg *[sticker]*_
+┣  _${usedPrefix}sticker *[image]*_
+┣  _${usedPrefix}tourl *[image]*_
+┣  _${usedPrefix}tourl *[video]*_
+┣  _${usedPrefix}tourl *[audio]*_
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ *< OWNER >*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟💫 _${usedPrefix}update_
-┣ ඬ⃟💫 _${usedPrefix}banchat_
-┣ ඬ⃟💫 _${usedPrefix}unbanchat_
+┣  _${usedPrefix}update_
+┣  _${usedPrefix}banchat_
+┣  _${usedPrefix}unbanchat_
 ┗━━━━━━━━━━━━━┛
 `.trim()
 let buttons = [
-{ buttonId: '#owner', buttonText: { displayText: '💫 𝐎𝐖𝐍𝐄𝐑 💫' }, type: 1 },
-{ buttonId: '#runtime', buttonText: { displayText: '⏰ 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 ⏰' }, type: 1 },
-{ buttonId: '#infohost', buttonText: { displayText: '👑 𝐈𝐍𝐅𝐎𝐇𝐎𝐒𝐓 👑' }, type: 1 }]
+{ buttonId: '#owner', buttonText: { displayText: '💫 mol lbot 💫' }, type: 1 },
+{ buttonId: '#runtime', buttonText: { displayText: '⏰ youtube ⏰' }, type: 1 },
+{ buttonId: '#infohost', buttonText: { displayText: '👑 instagram 👑' }, type: 1 }]
 let buttonMessage = {
-image: fs.readFileSync('./Menu2.jpg'),
+video: fs.readFileSync('./bobiz.mp4'),
 caption: menu.trim(),
 mentions: [m.sender],
 footer: `*${wm}*`,
@@ -88,10 +70,10 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐀𝐜𝐢𝐝𝐢𝐜𝐍𝐨𝐝𝐞𝐬 𝐇𝐨𝐬𝐭 👑',
+title: '👑  ʙᴏʙɪᴢ ʙᴏᴛ 👑',
 body: null,
-thumbnail: fs.readFileSync('./src/logo.png'),
-sourceUrl: `https://chat.whatsapp.com/F0fU7LSlBBcBm6ny5fVSuT`
+thumbnail: fs.readFileSync('./src/Menu2.jpg'),
+sourceUrl: `https://www.instagram.com/noureddine_ouafy`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
