@@ -5,46 +5,27 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let menu = `
 ╭══〘 ʙᴏʙɪᴢ ʙᴏᴛ 〙═╮
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨salam, ${taguser} :D*
+║➤ *salam 3alikom* , ${taguser} :D*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡☺☺☺☺☺╞══╯
 ┏━━━━━━━━━━━━━┓
 ┃ *< Menu >*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣  _a_
 ┣  _${usedPrefix}logos_
 ┣  _${usedPrefix}on welcome_
 ┣  _${usedPrefix}off welcome_
-┣  _${usedPrefix}ig *[url]*_
-┣  _${usedPrefix}mediafire *[url]*_
-┣  _${usedPrefix}tiktok *[url]*_
-┣  _${usedPrefix}sticker *[url]*_
-┣  _${usedPrefix}attp *[text]*_
-┣  _${usedPrefix}attp2 *[text]*_
-┣  _${usedPrefix}attp3 *[text]*_
-┣  _${usedPrefix}ttp *[text]*_
-┣  _${usedPrefix}ttp2 *[text]*_
-┣  _${usedPrefix}ttp3 *[text]*_
-┣  _${usedPrefix}ttp4 *[text]*_
-┣  _${usedPrefix}ttp5 *[text]*_
+┣  _${usedPrefix}ig *[lien]*_
+┣  _${usedPrefix}tiktok *[lien]*_
 ┣  _${usedPrefix}wikipedia *[text]*_
 ┣  _${usedPrefix}google *[text]*_
 ┣  _${usedPrefix}imagen *[text]*_
-┣  _${usedPrefix}play *[texto]*_
-┣  _${usedPrefix}play2 *[text]*_
 ┣  _${usedPrefix}play3 *[text]*_
 ┣  _${usedPrefix}invocar *[text]*_
 ┣  _${usedPrefix}ytsearch *[text]*_
-┣  _${usedPrefix}getaud *[url]*_
-┣  _${usedPrefix}getvid *[url]*_
-┣  _${usedPrefix}ytmp3 *[url]*_
-┣  _${usedPrefix}ytmp4 *[url]*_
-┣  _${usedPrefix}tts *[lenguaje] [texto]*_
+┣  _${usedPrefix}getaud *[lien yt]*_
+┣  _${usedPrefix}getvid *[lien yt]*_
 ┣  _${usedPrefix}toimg *[sticker]*_
-┣  _${usedPrefix}sticker *[image]*_
 ┣  _${usedPrefix}tourl *[image]*_
-┣  _${usedPrefix}tourl *[video]*_
-┣  _${usedPrefix}tourl *[audio]*_
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ *< OWNER >*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
